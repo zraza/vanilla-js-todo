@@ -83,6 +83,6 @@
         render: render
     }
 
-    window.app = window.app || {};
-    window.app.View = View;
+    window.App = window.App || {};
+    window.App.View = View;
 }(window));

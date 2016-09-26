@@ -51,6 +51,6 @@
         renderCounter: renderCounter
     }
 
-    window.app = window.app || {};
-    window.app.Template = Template;
+    window.App = window.App || {};
+    window.App.Template = Template;
 })(window);

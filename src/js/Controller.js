@@ -40,9 +40,9 @@
 
     var Controller = {
         init: init
-    };
+    }
 
 
-    window.app = window.app || {};
-    window.app.Controller = Controller;
+    window.App = window.App || {};
+    window.App.Controller = Controller;
 })(window);
