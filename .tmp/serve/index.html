@@ -9,12 +9,11 @@
      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
     <!-- bower:css -->
-    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp/serve,src}) styles/app.css -->
     <!-- inject:css -->
-    <!-- css files will be automatically insert here -->
+    <link rel="stylesheet" href="app/index.css">
     <!-- endinject -->
     <!-- endbuild -->
 </head>
@@ -30,12 +29,17 @@
     </div>
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
-    <!-- run `gulp inject` to automatically populate bower script dependencies -->
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
-    <!-- js files will be automatically insert here -->
+    <script src="app/View.js"></script>
+    <script src="app/TodoList.js"></script>
+    <script src="app/Template.js"></script>
+    <script src="app/PubSub.js"></script>
+    <script src="app/DOM.js"></script>
+    <script src="app/Controller.js"></script>
+    <script src="app/App.js"></script>
     <!-- endinject -->
     <script type="text/javascript">
     window.onload = function() {
