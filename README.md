@@ -19,6 +19,8 @@ gulp serve
 ```
 npm test
 ```
+### Demo App
+https://zraza.github.io/todo/
 
 ##Architectural decisions
 
