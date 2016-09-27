@@ -1,6 +1,6 @@
 # Simple list 
 
-A simple Todo list application build with Vanilla JS using Observer pattern 
+A simple Todo list application build with Vanilla JS using JavaScript Module Pattern and Observer pattern 
 
 ## Installing
 
